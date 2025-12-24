@@ -1,0 +1,16 @@
+{
+  "name": "CiteCheck",
+  "short_name": "CiteCheck",
+  "description": "Legal citation verification tool - catch AI-hallucinated case law before filing",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#1a237e",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
