@@ -41,7 +41,7 @@ In 2023, attorneys in the infamous *Mata v. Avianca* case faced **$5,000 in sanc
 
 ```bash
 # Clone it
-git clone https://github.com/agallefrom/citecheck.git
+git clone https://github.com/substrateagnostic/citecheck.git
 cd citecheck
 
 # Install
