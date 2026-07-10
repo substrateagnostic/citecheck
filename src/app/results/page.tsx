@@ -343,9 +343,9 @@ export default function ResultsPage() {
               No Citations Found
             </h2>
             <p className="text-gray-500 dark:text-gray-400 max-w-md mx-auto">
-              We couldn't find any legal citations in this document.
+              We couldn&apos;t find any legal citations in this document.
               Make sure the document contains standard legal citations
-              (e.g., "123 F.3d 456").
+              (e.g., &quot;123 F.3d 456&quot;).
             </p>
           </div>
         ) : (
@@ -404,7 +404,7 @@ export default function ResultsPage() {
               </h3>
               <p className="text-blue-700 dark:text-blue-200/80 text-sm leading-relaxed">
                 This tool verifies citations against the CourtListener database, which primarily covers
-                federal cases. Citations marked as "not found" may still exist in state court databases.
+                federal cases. Citations marked as &quot;not found&quot; may still exist in state court databases.
                 <strong> Always perform manual verification before filing any legal document.</strong>
               </p>
             </div>

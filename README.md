@@ -2,6 +2,9 @@
   <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js 14"/>
   <img src="https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/Status-Prototype-f59e0b?style=for-the-badge" alt="Status: Prototype"/>
+  <img src="https://img.shields.io/badge/Lint-next%20lint-blue?style=for-the-badge" alt="Lint: next lint"/>
+  <img src="https://img.shields.io/badge/Tests-none-lightgrey?style=for-the-badge" alt="Tests: none"/>
 </p>
 
 <h1 align="center">CiteCheck</h1>
@@ -11,9 +14,9 @@
 </p>
 
 <p align="center">
-  <a href="https://verify.alexgallefrom.io">Live Demo</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#features">Features</a> •
+  <a href="https://verify.alexgallefrom.io">Live Demo</a> |
+  <a href="#quick-start">Quick Start</a> |
+  <a href="#features">Features</a> |
   <a href="#cli-usage">CLI Usage</a>
 </p>
 
@@ -27,15 +30,15 @@ In 2023, attorneys in the infamous *Mata v. Avianca* case faced **$5,000 in sanc
 
 ## Features
 
-- **Multi-format support** — PDF, DOCX, TXT, Markdown
-- **Smart extraction** — Bluebook-aware parsing with 80+ reporter types
-- **Real verification** — Each citation checked against CourtListener
-- **Confidence scoring** — Know exactly how certain each match is
-- **Risk assessment** — Document-level scoring (Low/Medium/High/Critical)
-- **Beautiful UI** — Glass morphism design with animations
-- **Dark mode** — Easy on the eyes
-- **CLI tool** — Batch verify from the command line
-- **Export** — JSON and Markdown reports
+- **Multi-format support**  -  PDF, DOCX, TXT, Markdown
+- **Smart extraction**  -  Bluebook-aware parsing with 80+ reporter types
+- **Real verification**  -  Each citation checked against CourtListener
+- **Confidence scoring**  -  Know exactly how certain each match is
+- **Risk assessment**  -  Document-level scoring (Low/Medium/High/Critical)
+- **Beautiful UI**  -  Glass morphism design with animations
+- **Dark mode**  -  Easy on the eyes
+- **CLI tool**  -  Batch verify from the command line
+- **Export**  -  JSON and Markdown reports
 
 ## Quick Start
 
@@ -141,7 +144,7 @@ Returns:
 |--------|---------|
 | `verified` | Found in CourtListener with high confidence |
 | `partial_match` | Possible match, manual review recommended |
-| `not_found` | No match—may be fabricated or from uncovered jurisdiction |
+| `not_found` | No match - may be fabricated or from uncovered jurisdiction |
 | `format_error` | Invalid citation format |
 | `api_error` | API request failed |
 
@@ -149,7 +152,7 @@ Returns:
 
 ### Vercel (One Click)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fagallefrom%2Fcitecheck&env=COURTLISTENER_TOKEN&envDescription=Get%20your%20free%20API%20token%20at%20courtlistener.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsubstrateagnostic%2Fcitecheck&env=COURTLISTENER_TOKEN&envDescription=Get%20your%20free%20API%20token%20at%20courtlistener.com)
 
 ### Manual
 
@@ -169,18 +172,18 @@ Get your free token: [courtlistener.com/sign-in](https://www.courtlistener.com/s
 
 ## Limitations
 
-- **Federal focus** — CourtListener has comprehensive federal coverage; state varies
-- **Existence only** — Verifies citations exist, not that they support your argument
-- **Not legal advice** — Always perform independent verification
+- **Federal focus**  -  CourtListener has comprehensive federal coverage; state varies
+- **Existence only**  -  Verifies citations exist, not that they support your argument
+- **Not legal advice**  -  Always perform independent verification
 
 ## Tech Stack
 
-- [Next.js 14](https://nextjs.org/) — React framework
-- [TypeScript](https://www.typescriptlang.org/) — Type safety
-- [Tailwind CSS](https://tailwindcss.com/) — Styling
-- [pdf-parse](https://www.npmjs.com/package/pdf-parse) — PDF extraction
-- [mammoth](https://www.npmjs.com/package/mammoth) — DOCX extraction
-- [CourtListener](https://www.courtlistener.com/) — Citation database
+- [Next.js 14](https://nextjs.org/)  -  React framework
+- [TypeScript](https://www.typescriptlang.org/)  -  Type safety
+- [Tailwind CSS](https://tailwindcss.com/)  -  Styling
+- [pdf-parse](https://www.npmjs.com/package/pdf-parse)  -  PDF extraction
+- [mammoth](https://www.npmjs.com/package/mammoth)  -  DOCX extraction
+- [CourtListener](https://www.courtlistener.com/)  -  Citation database
 
 ## Contributing
 
@@ -194,7 +197,7 @@ Ideas welcome:
 
 ## License
 
-MIT — do whatever you want.
+MIT  -  do whatever you want.
 
 ## Credits
 

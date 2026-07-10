@@ -445,7 +445,7 @@ export default function Home() {
                     CourtListener
                   </a>{' '}
                   database (Free Law Project), which has comprehensive federal court coverage.
-                  State court coverage varies. Citations marked "not found" should be manually verified.
+                  State court coverage varies. Citations marked &quot;not found&quot; should be manually verified.
                 </p>
               </div>
             </div>
